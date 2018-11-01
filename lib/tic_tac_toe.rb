@@ -55,8 +55,8 @@ class TicTacToe
       display_board
     end
 
-    def draw?(board)
-  !won?(board) && full?(board)
+  def draw?(board)
+    !won?(board) && full?(board)
   end
 
 
