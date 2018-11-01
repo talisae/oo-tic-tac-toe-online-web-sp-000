@@ -4,9 +4,7 @@ class TicTacToe
     @board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   end
 
-  def display_board(board)
-    @board
-  end
+
 end
 
 WIN_COMBINATIONS = [
