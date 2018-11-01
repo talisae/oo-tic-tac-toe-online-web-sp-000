@@ -61,5 +61,5 @@ class TicTacToe
       return combo
       end
      end
-  end
+   end
 end
