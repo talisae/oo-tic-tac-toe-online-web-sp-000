@@ -67,7 +67,7 @@ class TicTacToe
     @board.all? { |token| token == 'X' || token == 'O' }
   end
 
-  def draw?(board)
+  def draw?
     !won? && full?
   end
 end
